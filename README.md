@@ -7,7 +7,7 @@
     </thead>
     <tbody>
     <tr>
-        <th>사진</th>
+        <th>Profile</th>
          <td width="100" align="center">
               <a href="https://github.com/SEUNGYEOPOH">
                 test
@@ -40,7 +40,7 @@
         </td>
     </tr>
     <tr>
-        <th>이름</th>
+        <th>Name</th>
         <td width="100" align="center">오승엽</td>
         <td width="100" align="center">정현우</td>
         <td width="100" align="center">윤상민</td>
@@ -49,7 +49,7 @@
       <td width="100" align="center">공선의</td>
     </tr>
     <tr>
-        <th>Field</th>
+        <th>Interesting Field</th>
         <td width="200" align="center">
             NLP<br>
             CV<br>
