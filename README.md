@@ -1,4 +1,4 @@
-# Kaggle-Competition
+# Kaggle / Binary Classification of Insurance Cross Selling
 
 ## Our team
 <div align="center">
@@ -112,8 +112,3 @@
     </tbody>
 </table>
 </div>
-
-## PlayGround
-- Binary Classification of Insurance Cross Selling
-
-## Featured 
