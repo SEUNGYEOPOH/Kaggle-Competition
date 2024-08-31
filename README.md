@@ -1,4 +1,4 @@
-# Kaggle / Binary Classification of Insurance Cross Selling
+# Binary Classification of Insurance Cross Selling
 
 ## Our team
 <div align="center">
@@ -41,3 +41,28 @@
 </table>
 </div>
 
+## Data Preprocessing
+- Factorize categorical variables with low correlation and continuous variables with high correlation
+    - Additional expansion of 4 features
+- 
+
+## Modeling
+- LGBM
+  - Bayesian optimization
+  - SMOTE
+  - Remove outliar
+- Xgboost
+  - Bayesian optimization
+- Catboost
+  - Bayesian optimization
+  - Optimization based on number of categorical variables
+- DNN
+  - Drop-Out
+  - Class weight
+  - Over Sampling
+
+## Result
+- Evaluation : ROC Curve
+- Public Score : 0.89585
+- Private Score : 0.89562
+- top 12.9% based on private score
