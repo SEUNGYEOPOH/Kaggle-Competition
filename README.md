@@ -9,72 +9,20 @@
     <tr>
         <th>Profile</th>
          <td width="100" align="center">
-              <a href="https://github.com/SEUNGYEOPOH">
-                test
+              <a href="https://seungyeopoh.github.io/CV/">
+                CV
             </a>
         </td>
         <td width="100" align="center">
-            <a href="https://github.com/">
-                test
-            </a>
-        </td>
-        <td width="100" align="center">
-           <a href="https://github.com/">
-                test
-            </a>
-        </td>
-        <td width="100" align="center">
-           <a href="https://github.com/">
-                test
-            </a>
-        </td>
-      <td width="100" align="center">
-            <a href="https://github.com/">
-                test
-            </a>
-        </td>
-      <td width="100" align="center">
-           <a href="https://github.com/">
-                test
+<!--            <a href="https://github.com/"> -->
+<!--                 test -->
             </a>
         </td>
     </tr>
     <tr>
         <th>Name</th>
         <td width="100" align="center">오승엽</td>
-        <td width="100" align="center">정현우</td>
-        <td width="100" align="center">윤상민</td>
         <td width="100" align="center">박윤서</td>
-      <td width="100" align="center">이의석</td>
-      <td width="100" align="center">공선의</td>
-    </tr>
-    <tr>
-        <th>Interesting Field</th>
-        <td width="200" align="center">
-            NLP<br>
-            CV<br>
-            LLM<br>
-        </td>
-        <td width="200" align="center">
-            <br>
-            <br>
-            <br>
-        </td>
-        <td width="200" align="center">
-            <br>
-        </td>
-        <td width="200" align="center">
-            <br>
-            <br>
-        </td>
-       <td width="200" align="center">
-            <br>
-            <br>
-        </td>
-       <td width="200" align="center">
-            <br>
-            <br>
-        </td>
     </tr>
     <tr>
         <th>GitHub</th>
@@ -84,27 +32,7 @@
             </a>
         </td>
         <td width="100" align="center">
-            <a href="https://github.com/">
-                <img src="http://img.shields.io/badge/-green?style=social&logo=github"/>
-            </a>
-        </td>
-        <td width="100" align="center">
-            <a href="https://github.com/">
-                <img src="http://img.shields.io/badge/-green?style=social&logo=github"/>
-            </a>
-        </td>
-        <td width="100" align="center">
-            <a href="https://github.com/">
-                <img src="http://img.shields.io/badge/-green?style=social&logo=github"/>
-            </a>
-        </td>
-      <td width="100" align="center">
-            <a href="https://github.com/">
-                <img src="http://img.shields.io/badge/-green?style=social&logo=github"/>
-            </a>
-        </td>
-      <td width="100" align="center">
-            <a href="https://github.com/">
+            <a href="https://github.com/Gangsui">
                 <img src="http://img.shields.io/badge/-green?style=social&logo=github"/>
             </a>
         </td>
@@ -112,3 +40,4 @@
     </tbody>
 </table>
 </div>
+
