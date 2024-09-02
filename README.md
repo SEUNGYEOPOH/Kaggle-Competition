@@ -44,7 +44,7 @@
 ## Data Preprocessing
 - Factorize categorical variables with low correlation and continuous variables with high correlation
     - Additional expansion of 4 features
-- 
+- Feature Engineering: Continuous and categorical features were separated. Categorical features were encoded using an Ordinal Encoder.
 
 ## Modeling
 - LGBM
@@ -60,6 +60,19 @@
   - Drop-Out
   - Class weight
   - Over Sampling
+    
+Neural Network Model
+The Neural Network was designed to effectively handle both continuous and categorical features:
+
+- Categorical Features:
+
+   - Embedding Layers: Categorical features were processed using embedding layers. This approach was chosen to avoid the inefficiencies of one-hot encoding, which can lead to sparse data with many zeros, causing unnecessary computations in a Deep Neural Network (DNN). By using embeddings, the model can learn compact, dense representations of categorical variables, capturing relationships and patterns within the data, such as similarities between regions (Region_Code), vehicle age (Vehicle_Age), and sales channels (Policy_Sales_Channel).
+     
+- Continuous Features: These were combined with the flattened embeddings of categorical features to form the input to the subsequent layers of the network, allowing the model to learn from both types of data simultaneously.
+
+- Model Architecture: The network architecture consists of dense layers activated by the Mish function, which is known for its smooth, non-monotonic nature, helping the model to learn complex patterns. Batch Normalization was applied to improve training stability, reduce overfitting, and accelerate convergence.
+
+- Output Layer: A sigmoid activation function was used in the output layer, suitable for binary classification tasks, to produce probabilities indicating the likelihood of each class.
 
 ## Result
 - Evaluation : ROC Curve
